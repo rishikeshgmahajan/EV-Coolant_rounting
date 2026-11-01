@@ -1,0 +1,32 @@
+{
+  "system_name": "Tata Nexon EV Max (FAULT DEMO - Stagnation at Rear Cold Plate)",
+  "vehicle_manufacturer": "Tata Passenger Electric Mobility (TPEM)",
+  "node_labels": {
+    "0": "Main_Coolant_Pump",
+    "1": "3Way_Thermostat_Valve",
+    "2": "HV_PTC_Heater",
+    "3": "ColdPlate_Module_01_FrontLeft",
+    "4": "ColdPlate_Module_02_FrontRight",
+    "5": "ColdPlate_Module_03_CenterLower",
+    "6": "ColdPlate_Module_04_RearUpper",
+    "7": "BMS_Thermal_Sensor_Junction",
+    "8": "Inverter_PDU_Cooling_Block",
+    "9": "HVAC_Refrigerant_Chiller",
+    "10": "Front_Radiator_Fan_Loop",
+    "11": "Expansion_Deaeration_Header"
+  },
+  "adjacency_matrix": [
+    [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0],
+    [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0],
+    [0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0],
+    [0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0],
+    [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1],
+    [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1],
+    [1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+  ]
+}
