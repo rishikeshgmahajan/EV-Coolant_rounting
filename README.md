@@ -32,6 +32,16 @@ streamlit run app.py
 The application opens in your browser.
 The project pins Streamlit to a light theme so the matrix stays consistent with the dashboard in dark-mode browsers.
 
+## Deploy on Streamlit Community Cloud
+
+The GitHub repository is `rishikeshgmahajan/EV-Coolant_rounting`. In Streamlit Community Cloud, create a new app and select:
+
+- **Repository:** `rishikeshgmahajan/EV-Coolant_rounting`
+- **Branch:** `main`
+- **Main file path:** `app.py`
+
+Streamlit Community Cloud installs the packages listed in `requirements.txt` when it builds the app.
+
 ## Using the application
 
 1. Start with the built-in six-junction example, or select **IMPORT EV TOPOLOGY** to load a file.
